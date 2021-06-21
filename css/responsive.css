@@ -1,0 +1,105 @@
+                                                    /* strat responsive */
+
+
+@media (max-width:767px) /* extra small screen */ {
+    .cover .screen {
+        width: 100%;
+    }
+    
+    .cover .screen.four,
+    .cover .screen.three,
+    .cover .screen.two
+    {
+        display: none;
+    }
+
+    .about .img,
+    .feat .img,
+    .porto .img {
+        display: none;
+    }
+
+    .about .details,
+    .feat .details,
+    .porto .details {
+        width: 100%;
+    }
+
+    .feat .details .experience,
+    .feat .details .education {
+        width: calc(100%);
+        margin: 0 0 60px 0;
+        float: left;
+    }
+
+    .porto .details .one {
+        width: 100%;
+    }
+    
+    .porto .details .two {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) /* small screen */ {
+    .cover .screen {
+        width: 50%;
+    }
+    
+    .cover .screen.four,
+    .cover .screen.three
+    {
+        display: none;
+    }
+
+    .about .img,
+    .feat .img {
+        width: 100%;
+    }
+
+    .about .details,
+    .feat .details {
+        width: 100%;
+    }
+
+    .porto .details .one {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    
+    .porto .details .two {
+        width: 100%;
+        float: right;
+        padding: 10px;
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px) /* medium screen */ {
+    .cover .screen {
+        width: calc(100% / 3);
+    }
+    
+    .cover .screen.four {
+        display: none;
+    }
+
+    .feat .details .experience,
+    .feat .details .education {
+        width: calc(100%);
+        margin: 0 0 60px 0;
+        float: left;
+    }
+}
+
+
+
+@media (min-width:1200px) /* large screen */ {}
+
+
+                                                    /* end responsive */
